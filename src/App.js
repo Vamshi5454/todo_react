@@ -5,7 +5,9 @@ import HookCounterThree from "./components/HookCounterThree";
 import HookCounterFour from "./components/HookCounterFour";
 import ToggleSwitch from "./components/ToggleSwitch";
 import TodoList from "./components/TodoList";
-import ThemeSwitcher from "./components/ThemeSwitcher";
+import ToggleDown from "./components/ToggleDown";
+
+// import ThemeSwitcher from "./components/ThemeSwitcher";
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
       {/* <HookCounterFour></HookCounterFour> */}
       {/* <ToggleSwitch /> */}
       {/* <TodoList></TodoList> */}
-      <ThemeSwitcher></ThemeSwitcher>
+      {/* <ThemeSwitcher></ThemeSwitcher> */}
+      <ToggleDown></ToggleDown>
     </div>
   );
 }
